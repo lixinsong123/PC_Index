@@ -1,0 +1,306 @@
+.icon {
+  background: url(../images/ico_one.png) no-repeat 0 0;
+  display: block;
+  width: 100%;
+  height: 100%; }
+
+.similar-component .similar-title {
+  border: 1px solid #c48a7e; }
+  .similar-component .similar-title .title-h {
+    height: 3px;
+    background: #ac4a1d; }
+  .similar-component .similar-title .title-core {
+    background: #9d5942;
+    height: 30px; }
+  .similar-component .similar-title .title-pic {
+    float: left;
+    margin-left: 9px;
+    width: 26px;
+    height: 100%; }
+  .similar-component .similar-title .title-name {
+    float: left;
+    font-size: 16px;
+    color: white;
+    line-height: 30px;
+    margin-left: 5px;
+    font-weight: bold;
+    text-overflow: ellipsis; }
+
+body {
+  background: url(../images/bg.png) no-repeat 0 0;
+  min-width: 1500px; }
+
+@media screen and (min-width: 1900px) {
+  body {
+    background: url(../images/bg.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%; } }
+#header {
+  width: 100%;
+  height: 88px;
+  background: #910101;
+  position: relative; }
+
+#main {
+  padding: 39px 0 8px 0;
+  height: 795px; }
+  #main .similar-bg {
+    border: 1px solid #bc6549; }
+  #main .m-left {
+    float: left;
+    height: 100%;
+    margin: 0 16px 0 19px;
+    border: 1px solid #7c0f01; }
+    #main .m-left .advance {
+      width: 288px; }
+      #main .m-left .advance .similar-title .definite-pic {
+        background-position: -120px -193px; }
+      #main .m-left .advance .similar-content {
+        height: 216px; }
+    #main .m-left .affiche {
+      width: 288px; }
+      #main .m-left .affiche .similar-title .definite-pic {
+        background-position: -120px -50px; }
+      #main .m-left .affiche .similar-content {
+        height: 264px; }
+    #main .m-left .market {
+      width: 288px; }
+      #main .m-left .market .similar-title .definite-pic {
+        background-position: -118px -4px; }
+      #main .m-left .market .similar-content {
+        height: 207px; }
+  #main .m-right {
+    float: right;
+    height: 100%;
+    border: 1px solid #7c0f01; }
+    #main .m-right .exchange {
+      width: 594px; }
+      #main .m-right .exchange .similar-title .definite-pic {
+        background-position: -167px -4px; }
+      #main .m-right .exchange .on-line {
+        float: right;
+        color: #ffffff;
+        font-size: 12px;
+        line-height: 30px;
+        margin-right: 8px; }
+      #main .m-right .exchange .similar-content {
+        height: 756px; }
+    #main .m-right .m-chatting {
+      height: 513px;
+      overflow: hidden;
+      position: relative; }
+    #main .m-right .m-chat-wrap {
+      height: 240px;
+      background: #dddddd;
+      position: relative; }
+    #main .m-right .m-chat-btn {
+      background: #ff6e00;
+      padding: 0 10px;
+      font-size: 16px;
+      width: 34px;
+      line-height: 24px;
+      text-align: center;
+      color: #ffffff;
+      position: absolute;
+      right: 10px;
+      bottom: 13px;
+      cursor: pointer; }
+    #main .m-right .m-scroll-wrap {
+      width: 100%; }
+      #main .m-right .m-scroll-wrap li {
+        padding: 15px 48px 15px 15px; }
+      #main .m-right .m-scroll-wrap .s-head {
+        width: 43px;
+        height: 60px;
+        float: left; }
+        #main .m-right .m-scroll-wrap .s-head i {
+          background-position: 0 -61px; }
+      #main .m-right .m-scroll-wrap .s-core {
+        float: left;
+        width: 480px; }
+      #main .m-right .m-scroll-wrap .s-date {
+        height: 19px;
+        font-size: 16px;
+        margin-left: 16px; }
+        #main .m-right .m-scroll-wrap .s-date .peo {
+          font-weight: bold;
+          color: #fff757; }
+        #main .m-right .m-scroll-wrap .s-date .date {
+          color: #ffffff;
+          font-weight: normal;
+          margin-left: 5px; }
+      #main .m-right .m-scroll-wrap .s-content {
+        margin-top: 8px;
+        margin-left: 16px;
+        background: #fff8f7;
+        border-radius: 4px;
+        line-height: 33px;
+        padding: 0 10px; }
+      #main .m-right .m-scroll-wrap .system span {
+        color: #c78a09; }
+    #main .m-right .m-scroll-btn {
+      height: 100%;
+      width: 6px;
+      position: absolute;
+      right: 0;
+      top: 0; }
+      #main .m-right .m-scroll-btn span {
+        width: 100%;
+        background: #f7da04;
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        border-radius: 19px; }
+  #main .m-content {
+    width: 100%; }
+    #main .m-content .m-core {
+      margin: 0 614px 0 325px;
+      border: 1px solid #7c0f01;
+      height: 795px; }
+      #main .m-content .m-core .video .similar-title .definite-pic {
+        background-position: -167px -4px; }
+      #main .m-content .m-core .video .similar-content {
+        height: 516px; }
+      #main .m-content .m-core .User-voice .similar-title .definite-pic {
+        background-position: -117px -146px; }
+      #main .m-content .m-core .User-voice .similar-content {
+        height: 206px; }
+
+#footer {
+  background: #fe0000;
+  color: #ffffff;
+  text-align: center;
+  line-height: 38px;
+  font-size: 12.5px; }
+
+.header .wrap {
+  border-top: 5px solid #82030a;
+  border-bottom: 2px solid #82030a;
+  height: 78px; }
+.header .h-right:hover .aboutUS {
+  display: block; }
+.header .h-right {
+  float: right;
+  margin-right: 92px;
+  height: 100%;
+  width: 55px;
+  position: relative; }
+  .header .h-right .h-r-icon {
+    background-position: 8px 7px;
+    height: 50px; }
+  .header .h-right .h-btn-link {
+    display: block;
+    color: #ffffff;
+    font-size: 12.5px;
+    text-align: center; }
+  .header .h-right .aboutUS {
+    position: absolute;
+    top: 0px;
+    left: 54px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0 5px;
+    display: none;
+    width: 100%; }
+    .header .h-right .aboutUS a {
+      color: #a08037;
+      display: block;
+      width: 100%;
+      line-height: 40px;
+      text-align: center;
+      border-bottom: 1px solid #8e8e96;
+      font-size: 12px; }
+  .header .h-right .aboutUS a:hover {
+    color: red;
+    border-color: #a08037; }
+.header .h-left {
+  margin-left: 80px;
+  height: 100%;
+  width: 52%;
+  float: left; }
+  .header .h-left li {
+    height: 100%; }
+    .header .h-left li div {
+      float: left; }
+  .header .h-left .portrait {
+    width: 48px;
+    height: 100%; }
+    .header .h-left .portrait img {
+      width: 100%; }
+  .header .h-left .h-link {
+    padding-top: 10px; }
+    .header .h-left .h-link span {
+      display: block; }
+    .header .h-left .h-link .name {
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 25px;
+      text-indent: 34px; }
+    .header .h-left .h-link .post {
+      color: #ffffff;
+      font-size: 16px;
+      line-height: 25px;
+      text-indent: 34px; }
+  .header .h-left .h-contro {
+    width: 25px;
+    height: 38px;
+    float: right;
+    padding: 18px 0; }
+    .header .h-left .h-contro span {
+      background-position: -6px -132px;
+      cursor: pointer; }
+  .header .h-left .h-content-link {
+    float: left;
+    padding-left: 71px;
+    height: 100%;
+    width: 50%; }
+    .header .h-left .h-content-link p {
+      color: white;
+      position: relative;
+      line-height: 26px;
+      /* 3 times the line-height to show 3 lines */
+      height: 100%;
+      overflow: hidden;
+      font-size: 13px; }
+    .header .h-left .h-content-link p::after {
+      content: "...";
+      font-weight: bold;
+      position: absolute;
+      bottom: 0;
+      right: 3px;
+      padding: 0 0px 1px 16px;
+      background: #910101; }
+.header .h-notice {
+  position: absolute;
+  right: 53px;
+  bottom: -40px; }
+  .header .h-notice i {
+    width: 28px;
+    height: 40px;
+    float: left; }
+    .header .h-notice i span {
+      background-position: -122px -44px; }
+  .header .h-notice .h-notice-title {
+    float: left;
+    font-size: 16px;
+    line-height: 40px;
+    color: #ffffff; }
+  .header .h-notice .h-link-wrap {
+    float: left;
+    font-size: 16px;
+    line-height: 40px;
+    color: #ffffff;
+    width: 600px;
+    overflow: hidden;
+    height: 40px;
+    position: relative; }
+    .header .h-notice .h-link-wrap label {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      height: 40px; }
+
+/*# sourceMappingURL=index.css.map */

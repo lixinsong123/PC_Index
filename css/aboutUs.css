@@ -1,0 +1,167 @@
+body{
+	min-width: 1200px;
+}
+.bgView{
+	background:url(../images/aboutUs/bg.png) no-repeat center bottom;
+	background-attachment: fixed;
+}
+.header{
+	height: 401px;
+}
+.header img{
+	width: 100%;
+	height: 100%;
+}
+.core{
+	background: rgba(47,42,49,0.42);
+	width: 1120px;
+	margin:0 auto;
+	
+}
+.core .title,.wrap{
+	padding: 20px 44px 0 44px;
+
+}
+.core .title h2{
+	line-height: 70px;
+	font-size: 30px;
+	color: #208cbe;
+	border-bottom: 2px solid #efefef;
+	padding: 0 0 0 68px;
+	background: url(../images/aboutUs/small_ico.png) no-repeat;
+	font-weight: normal;
+}
+.content{
+	padding-bottom: 50px;
+}
+.wrap .name{
+	padding: 33px 0 33px 71px;
+	background: url(../images/aboutUs/small_ico.png) no-repeat;
+	background-position: 0 -75px;
+}
+.wrap .name span{
+	display: block;
+	width: 258px;
+	line-height: 42px;
+	border-radius: 9px;
+	background: #397191;
+	text-align: center;
+	color: #efefef;
+	font-size: 22px;
+
+}
+.wrap  .information{
+	padding: 0 16px;
+}
+.information .motto{
+	float: left;
+	position: relative;
+	padding: 25px 0 25px 62px;
+	width: 125px;
+	height: 242px;
+}
+.motto img{
+	width: 100%;
+	height: 100%;
+}
+.motto span{
+	position: absolute;
+	padding: 14px 10px;
+	display: block;
+	bottom: 0;
+	font-size: 14px;
+	color: #000000;
+	background: #a3a5a9;
+	z-index: 99;
+	width: 174px;
+	left: 26px;
+
+}
+.motto strong{
+	font-weight: normal;
+	text-indent: 20px;
+	display: block;
+}
+.information .briefIntroduction{
+	float: right;
+	font-size: 18px;
+	color: #ffffff;
+	width: 726px;
+	text-indent: 36px;
+	line-height: 33px;
+}
+
+.wrapper{
+	padding: 50px 97px;
+}
+.local{
+
+}
+.local .text{
+ 	float: left;
+}
+.local .pic{
+	float: right;
+	width: 472px;
+}
+.text{
+	width: 427px;
+	text-indent: 45px;
+}
+.divide{
+	padding-top: 38px;
+	text-indent: 45px;
+}
+.ordinary{
+	padding-top: 40px;
+	text-indent: 45px;
+}
+.pic li{
+	float: left;
+	width: 231px;
+	height: 168px;
+	margin-bottom: 10px;
+}
+.pic li:nth-of-type(odd){
+	margin-right: 10px;
+}
+.pic li img{
+	width: 100%;
+	height: 100%;
+}
+
+.wrapper p{
+	color: #ffffff;
+	line-height: 37px;
+}
+
+.wrapper h3{
+	padding-left: 87px;
+	font-size: 22px;
+	line-height: 49px;
+	color: #ffffff;
+	background: url(../images/aboutUs/small_ico.png) no-repeat;
+	background-position: 2px -218px;
+	font-weight: normal;
+}
+
+.stepLink{
+	padding-left: 87px;
+	line-height: 68px;
+}
+.stepPic{
+	padding: 5px 0 0 162px;
+
+}
+.sonWrap{
+	padding-bottom: 30px;
+}
+
+.adressLink{
+	line-height: 55px;
+}
+.wrapper .rightLink{
+	float: right;
+	font-size: 20px;
+	color: #208cbe;
+}
